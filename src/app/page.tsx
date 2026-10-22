@@ -225,17 +225,13 @@ function Container({ className = "", children }: { className?: string; children:
 /** Destaque de palavra — no vermelho vira "pílula" branca com texto vermelho. */
 function MarkOnRed({ children }: { children: ReactNode }) {
   return (
-    <span className="rounded-[12px] bg-white px-1.5 text-love-600 [box-decoration-break:clone] [-webkit-box-decoration-break:clone]">
-      {children}
-    </span>
+    <span className="text-gold">{children}</span>
   );
 }
 
 function SoftMarkOnRed({ children }: { children: ReactNode }) {
   return (
-    <span className="rounded-[10px] bg-white/20 px-1 font-bold text-white [box-decoration-break:clone] [-webkit-box-decoration-break:clone]">
-      {children}
-    </span>
+    <span className="text-gold font-bold">{children}</span>
   );
 }
 
@@ -338,9 +334,9 @@ export default function MesaPostaPage() {
 
       <main className="flex flex-col pt-11">
         {/* 1 · HERO (azul → vermelho) */}
-        <RedSlab className="pt-5! sm:pt-10!">
+        <RedSlab className="pt-8! sm:pt-12!">
           <Container className="flex flex-col items-center text-center">
-            <h1 className={`${display} text-[32px] font-black leading-[1.1] tracking-tight sm:text-5xl md:text-6xl`}>
+            <h1 className={`${display} px-2 text-[30px] font-extrabold leading-[1.18] tracking-tight sm:text-5xl md:text-6xl`}>
               Sé el líder que <MarkOnRed>transforma corazones</MarkOnRed> y fortalece matrimonios con{" "}
               <MarkOnRed>amor y propósito.</MarkOnRed>
             </h1>
@@ -351,7 +347,7 @@ export default function MesaPostaPage() {
               width={1024}
               height={1536}
               priority
-              className="mt-6 w-full rounded-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
+              className="mx-auto mt-9 w-[77%] max-w-[380px] rounded-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
             />
 
             <p className="mt-8 text-lg font-medium leading-relaxed text-white/95 sm:text-xl">

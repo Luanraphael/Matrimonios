@@ -177,6 +177,16 @@ img {
 
 /* ---------- Texto ---------- */
 
+/* Grifo dourado — mesmo dourado dos números nos mockups (#F8D45C). */
+.text-gold {
+  background: linear-gradient(180deg, #fce68c 0%, #f8d45c 50%, #f2bc4c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
 .clay-text-gradient {
   background: linear-gradient(
     120deg,
