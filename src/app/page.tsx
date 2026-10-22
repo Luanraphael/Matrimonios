@@ -20,21 +20,18 @@ const INCLUDES_TOP = [
   "300 Dinámicas para encuentros y reuniones de matrimonios",
   "Actividad Guiada: Aprendiendo a vivir el Matrimonio",
   "128 Desafíos en Pareja",
-  "24 Carteles para encuentros y retiros de matrimonios",
   "85 Ideas de Rompehielos para encuentros y retiros matrimoniales",
   "52 Encuentros Matrimoniales Listos para Dirigir",
   "150 Recursos Imprimibles para Encuentros Matrimoniales",
-  "27 Dinámicas y Rompehielos para Retiros de Matrimonio",
   "38 Ideas para Encuentros Románticos Cristianos",
   "55 Estrategias para Líderes de Matrimonios",
   "Cómo Preparar un Tema que Transforme Parejas",
   "Carta para Mi Pareja (modelos personalizables)",
-  "20 Títulos Temáticos para Grupos de Matrimonios Cristianos",
+  "30 Temas Inteligentes para Desarrollar en Encuentros de Matrimonios",
   "Guía para Organizar Encuentros con Propósito",
 ];
 
 const INCLUDES_BOTTOM = [
-  "Tarjetas con Versículos para Fortalecer el Amor y la Fe",
   "Modelos imprimibles y editables para tus reuniones",
   "Recursos listos para usar en PDF y formato digital",
   "Acceso Inmediato, Descarga Segura y Uso Ilimitado",
@@ -51,9 +48,7 @@ const TRUST_BADGES = [
 // Na original o 1º card mostra o título antes da imagem; os demais, imagem antes do título.
 const DELIVERABLES = [
   { title: "128 Desafíos en Pareja", img: "entregavel-128-desafios.png", w: 1306, h: 1205, titleFirst: true },
-  { title: "27 Dinámicas y Rompehielos para Retiros Matrimoniales", img: "entregavel-27-dinamicas.png", w: 1024, h: 576 },
   { title: "38 Ideas para Encuentros Románticos Cristianos", img: "entregavel-38-ideas.png", w: 1306, h: 1204 },
-  { title: "24 Carteles para encuentros y retiros de matrimonios", img: "entregavel-24-carteles.png", w: 1024, h: 576 },
   { title: "55 Estrategias para Líderes de Matrimonios", img: "entregavel-55-estrategias.png", w: 1306, h: 1204 },
 ];
 
@@ -62,9 +57,8 @@ const BONUSES = [
   { title: "85 Ideas de Rompehielos para encuentros y retiros matrimoniales", img: "bono-85-rompehielos.png", w: 1306, h: 1204, price: "DE $29,90" },
   { title: "52 Encuentros Matrimoniales Listos para Dirigir", img: "bono-52-encuentros.png", w: 1500, h: 1383, price: "DE $19,90" },
   { title: "Cartas Personalizables para Mi Pareja", img: "bono-cartas.png", w: 1024, h: 576, price: "DE $37,90" },
-  { title: "20 Títulos Temáticos para Grupos de Matrimonios Cristianos", img: "bono-20-titulos.png", w: 1024, h: 576, price: "DE $37,90" },
+  { title: "30 Temas Inteligentes para Desarrollar en Encuentros de Matrimonios", img: "bono-30-temas.png", w: 1306, h: 1204, price: "DE $37,90" },
   { title: "Cómo Preparar un Tema que Transforme Parejas", img: "bono-como-preparar-parejas.png", w: 1306, h: 1204, price: "DE $29,90" },
-  { title: "Tarjetas con Versículos para Fortalecer el Amor y la Fe", img: "bono-tarjetas.png", w: 1024, h: 576, price: "DE $29,90" },
   { title: "150 Recursos Imprimibles para Encuentros Matrimoniales", img: "bono-150-recursos.png", w: 1242, h: 954, price: "DE $37,90" },
 ];
 
@@ -116,20 +110,17 @@ const OFFER_ITEMS = [
   "300 Dinámicas para encuentros y reuniones de matrimonios",
   "Actividad Guiada: Aprendiendo a vivir el Matrimonio",
   "128 Desafíos en Pareja",
-  "24 Carteles para encuentros y retiros de matrimonios",
   "85 Ideas de Rompehielos para encuentros y retiros matrimoniales",
   "52 Encuentros Matrimoniales Listos para Dirigir",
   "150 Recursos Imprimibles para Encuentros Matrimoniales",
-  "27 Dinámicas y Rompehielos para Retiros de Matrimonio",
   "38 Ideas para Encuentros Románticos Cristianos",
   "55 Estrategias para Líderes de Matrimonios",
   "Cómo Preparar un Tema que Transforme Parejas",
   "Carta para Mi Pareja (modelos personalizables)",
-  "20 Títulos Temáticos para Grupos de Matrimonios Cristianos",
+  "30 Temas Inteligentes para Desarrollar en Encuentros de Matrimonios",
   "Guía para Organizar Encuentros con Propósito",
   "Recursos listos para usar en PDF y formato digital",
   "Acceso Inmediato, Descarga Segura y Uso Ilimitado",
-  "Tarjetas con Versículos para Fortalecer el Amor y la Fe",
   "Acceso de por vida",
   "Entrega inmediata por correo y WhatsApp",
 ];
@@ -347,18 +338,9 @@ export default function MesaPostaPage() {
 
       <main className="flex flex-col pt-11">
         {/* 1 · HERO (azul → vermelho) */}
-        <RedSlab>
+        <RedSlab className="pt-5! sm:pt-10!">
           <Container className="flex flex-col items-center text-center">
-            <Image
-              src={`${IMG}/logo-kit.png`}
-              alt="Kit Ministerial para Parejas Cristianas"
-              width={1024}
-              height={1024}
-              priority
-              className="-my-6 w-[220px] sm:w-[260px]"
-            />
-
-            <h1 className={`${display} mt-4 text-4xl font-black leading-[1.1] tracking-tight sm:text-5xl md:text-6xl`}>
+            <h1 className={`${display} text-[32px] font-black leading-[1.1] tracking-tight sm:text-5xl md:text-6xl`}>
               Sé el líder que <MarkOnRed>transforma corazones</MarkOnRed> y fortalece matrimonios con{" "}
               <MarkOnRed>amor y propósito.</MarkOnRed>
             </h1>
@@ -369,7 +351,7 @@ export default function MesaPostaPage() {
               width={1024}
               height={1536}
               priority
-              className="mt-8 w-full rounded-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
+              className="mt-6 w-full rounded-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
             />
 
             <p className="mt-8 text-lg font-medium leading-relaxed text-white/95 sm:text-xl">
@@ -379,9 +361,7 @@ export default function MesaPostaPage() {
               diseñados para inspirar, fortalecer y unir matrimonios con propósito espiritual.
             </p>
 
-            <div className="clay-red-card mt-8 w-full rounded-[32px] p-6 text-left sm:p-8">
-              <CheckList items={HERO_BULLETS} onRed />
-            </div>
+            <CheckList items={HERO_BULLETS} onRed className="mt-8 w-full text-left" />
 
             <CtaButton href="#ofertas4" className="mt-10">
               QUIERO RECIBIR LOS MATERIALES
