@@ -11,12 +11,12 @@
   --clay-foreground: #332f3a;
   --clay-muted: #635f69;
 
-  --love-300: #ff9aae;
-  --love-400: #f5506f;
-  --love-500: #e11d48;
-  --love-600: #c8102e;
-  --love-700: #9f0a24;
-  --love-ink: #b3123a;
+  --love-300: #f2626a;
+  --love-400: #e4111b;
+  --love-500: #c8060f;
+  --love-600: #a50309;
+  --love-700: #870105;
+  --love-ink: #9a0108;
 
   --clay-success: #10b981;
   --clay-success-dark: #059669;
@@ -126,7 +126,10 @@ img {
 }
 
 .clay-red-slab {
-  background: linear-gradient(180deg, var(--love-500) 0%, var(--love-600) 100%);
+  /* Mesmo vermelho do banner: carmim intenso com laterais escurecidas */
+  background:
+    linear-gradient(90deg, rgba(60, 0, 2, 0.28) 0%, transparent 22%, transparent 78%, rgba(60, 0, 2, 0.28) 100%),
+    linear-gradient(180deg, var(--love-500) 0%, var(--love-600) 100%);
   box-shadow: var(--shadow-clay-red-slab);
 }
 

@@ -50,12 +50,12 @@ const DELIVERABLES = [
   { title: "128 Desafíos en Pareja", img: "entregavel-128-desafios.png", w: 1306, h: 1205, titleFirst: true },
   { title: "38 Ideas para Encuentros Románticos Cristianos", img: "entregavel-38-ideas.png", w: 1306, h: 1204 },
   { title: "55 Estrategias para Líderes de Matrimonios", img: "entregavel-55-estrategias.png", w: 1306, h: 1204 },
+  { title: "300 Dinámicas para encuentros y reuniones de matrimonios", img: "bono-300-dinamicas.png", w: 1306, h: 1204 },
+  { title: "52 Encuentros Matrimoniales Listos para Dirigir", img: "bono-52-encuentros.png", w: 1500, h: 1383 },
 ];
 
 const BONUSES = [
-  { title: "300 Dinámicas para encuentros y reuniones de matrimonios", img: "bono-300-dinamicas.png", w: 1306, h: 1204, price: "DE $37,90" },
   { title: "85 Ideas de Rompehielos para encuentros y retiros matrimoniales", img: "bono-85-rompehielos.png", w: 1306, h: 1204, price: "DE $29,90" },
-  { title: "52 Encuentros Matrimoniales Listos para Dirigir", img: "bono-52-encuentros.png", w: 1500, h: 1383, price: "DE $19,90" },
   { title: "Cartas Personalizables para Mi Pareja", img: "bono-cartas.png", w: 1024, h: 576, price: "DE $37,90" },
   { title: "30 Temas Inteligentes para Desarrollar en Encuentros de Matrimonios", img: "bono-30-temas.png", w: 1306, h: 1204, price: "DE $37,90" },
   { title: "Cómo Preparar un Tema que Transforme Parejas", img: "bono-como-preparar-parejas.png", w: 1306, h: 1204, price: "DE $29,90" },
@@ -277,7 +277,7 @@ function CtaButton({ href, children, className = "" }: { href: string; children:
 function IconOrb({ children, tone = "red" }: { children: ReactNode; tone?: "red" | "white" }) {
   const toneClass =
     tone === "red"
-      ? "bg-gradient-to-br from-[#f5506f] to-[#c8102e] text-white"
+      ? "bg-gradient-to-br from-[#e4111b] to-[#a50309] text-white"
       : "bg-gradient-to-br from-white to-[#ffe3ea] text-love-600";
   return (
     <span className={`clay-orb inline-flex h-16 w-16 items-center justify-center rounded-full ${toneClass}`}>
@@ -315,14 +315,14 @@ export default function MesaPostaPage() {
     <div className="relative min-h-screen overflow-x-hidden">
       {/* Blobs de fundo (luz ambiente do canvas) */}
       <div aria-hidden className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-        <div className="absolute -left-[10%] -top-[10%] h-[60vh] w-[60vh] rounded-full bg-[#e11d48]/10 blur-3xl" />
-        <div className="absolute -right-[10%] top-[20%] h-[60vh] w-[60vh] rounded-full bg-[#ec4899]/10 blur-3xl" />
+        <div className="absolute -left-[10%] -top-[10%] h-[60vh] w-[60vh] rounded-full bg-[#c8060f]/10 blur-3xl" />
+        <div className="absolute -right-[10%] top-[20%] h-[60vh] w-[60vh] rounded-full bg-[#e4111b]/10 blur-3xl" />
       </div>
 
       {/* Barra promocional fixa */}
       <div className="fixed inset-x-0 top-0 z-50">
         <div
-          className={`${display} flex h-11 w-full items-center justify-center gap-1.5 bg-[#9f0a24] px-4 text-center text-[15px] font-extrabold tracking-wide text-white`}
+          className={`${display} flex h-11 w-full items-center justify-center gap-1.5 bg-[#870105] px-4 text-center text-[15px] font-extrabold tracking-wide text-white`}
         >
           ¡Descuento solo
           <span className="animate-clay-blink rounded-full bg-white px-2.5 py-0.5 text-love-600 underline underline-offset-2">
@@ -759,7 +759,7 @@ export default function MesaPostaPage() {
                   className="clay-faq clay-card group rounded-[24px] px-5 py-1 hover:-translate-y-1"
                 >
                   <summary className="flex min-h-16 cursor-pointer items-center gap-4 py-3">
-                    <span className="clay-orb inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#f5506f] to-[#c8102e] text-white">
+                    <span className="clay-orb inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#e4111b] to-[#a50309] text-white">
                       <Plus className="faq-icon-closed h-5 w-5" strokeWidth={3} />
                       <Minus className="faq-icon-open h-5 w-5" strokeWidth={3} />
                     </span>
