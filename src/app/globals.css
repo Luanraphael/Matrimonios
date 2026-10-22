@@ -133,6 +133,13 @@ img {
   box-shadow: var(--shadow-clay-red-slab);
 }
 
+/* Barra fixa do topo: mesmo vermelho e mesmas laterais escurecidas do início da página */
+.clay-topbar {
+  background:
+    linear-gradient(90deg, rgba(60, 0, 2, 0.28) 0%, transparent 22%, transparent 78%, rgba(60, 0, 2, 0.28) 100%),
+    var(--love-500);
+}
+
 .clay-red-card {
   background: rgba(255, 255, 255, 0.07);
   backdrop-filter: blur(24px);

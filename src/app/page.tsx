@@ -322,7 +322,7 @@ export default function MesaPostaPage() {
       {/* Barra promocional fixa */}
       <div className="fixed inset-x-0 top-0 z-50">
         <div
-          className={`${display} flex h-11 w-full items-center justify-center gap-1.5 bg-[#870105] px-4 text-center text-[15px] font-extrabold tracking-wide text-white`}
+          className={`${display} flex h-11 w-full items-center justify-center gap-1.5 clay-topbar px-4 text-center text-[15px] font-extrabold tracking-wide text-white`}
         >
           ¡Descuento solo
           <span className="animate-clay-blink rounded-full bg-white px-2.5 py-0.5 text-love-600 underline underline-offset-2">
