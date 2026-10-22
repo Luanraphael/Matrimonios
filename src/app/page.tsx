@@ -17,16 +17,17 @@ const HERO_BULLETS = [
 ];
 
 const INCLUDES_TOP = [
-  "100 Dinámicas para encuentros y reuniones de matrimonios",
+  "300 Dinámicas para encuentros y reuniones de matrimonios",
   "Actividad Guiada: Aprendiendo a vivir el Matrimonio",
-  "44 Desafíos Creativos para parejas",
+  "128 Desafíos en Pareja",
   "24 Carteles para encuentros y retiros de matrimonios",
-  "42 Ideas de Rompehielos para encuentros y retiros matrimoniales",
-  "50 Preguntas para Conectar con tu Pareja",
+  "85 Ideas de Rompehielos para encuentros y retiros matrimoniales",
+  "52 Encuentros Matrimoniales Listos para Dirigir",
+  "150 Recursos Imprimibles para Encuentros Matrimoniales",
   "27 Dinámicas y Rompehielos para Retiros de Matrimonio",
-  "25 Ideas para Encuentros Románticos Cristianos",
-  "10 Estrategias para Líderes de Matrimonio",
-  "Cómo Preparar un Tema que Transforme Matrimonios",
+  "38 Ideas para Encuentros Románticos Cristianos",
+  "55 Estrategias para Líderes de Matrimonios",
+  "Cómo Preparar un Tema que Transforme Parejas",
   "Carta para Mi Pareja (modelos personalizables)",
   "20 Títulos Temáticos para Grupos de Matrimonios Cristianos",
   "Guía para Organizar Encuentros con Propósito",
@@ -49,21 +50,22 @@ const TRUST_BADGES = [
 
 // Na original o 1º card mostra o título antes da imagem; os demais, imagem antes do título.
 const DELIVERABLES = [
-  { title: "44 Desafíos Creativos para parejas", img: "entregavel-44-desafios.png", titleFirst: true },
-  { title: "27 Dinámicas y Rompehielos para Retiros Matrimoniales", img: "entregavel-27-dinamicas.png" },
-  { title: "25 Ideas para Encuentros Románticos Cristianos", img: "entregavel-25-ideas.png" },
-  { title: "24 Carteles para encuentros y retiros de matrimonios", img: "entregavel-24-carteles.png" },
-  { title: "10 Estrategias Inspiradoras para Líderes de Matrimonio", img: "entregavel-10-estrategias.png" },
+  { title: "128 Desafíos en Pareja", img: "entregavel-128-desafios.png", w: 1306, h: 1205, titleFirst: true },
+  { title: "27 Dinámicas y Rompehielos para Retiros Matrimoniales", img: "entregavel-27-dinamicas.png", w: 1024, h: 576 },
+  { title: "38 Ideas para Encuentros Románticos Cristianos", img: "entregavel-38-ideas.png", w: 1306, h: 1204 },
+  { title: "24 Carteles para encuentros y retiros de matrimonios", img: "entregavel-24-carteles.png", w: 1024, h: 576 },
+  { title: "55 Estrategias para Líderes de Matrimonios", img: "entregavel-55-estrategias.png", w: 1306, h: 1204 },
 ];
 
 const BONUSES = [
-  { title: "100 Dinámicas para encuentros y reuniones de matrimonios", img: "bono-100-dinamicas.png", h: 576, price: "DE $37,90" },
-  { title: "42 Ideas de Rompehielos para encuentros y retiros matrimoniales", img: "bono-42-rompehielos.png", h: 576, price: "DE $29,90" },
-  { title: "50 Preguntas para Conectar con tu Pareja", img: "bono-50-preguntas.png", h: 944, price: "DE $19,90" },
-  { title: "Cartas Personalizables para Mi Pareja", img: "bono-cartas.png", h: 576, price: "DE $37,90" },
-  { title: "20 Títulos Temáticos para Grupos de Matrimonios Cristianos", img: "bono-20-titulos.png", h: 576, price: "DE $37,90" },
-  { title: "Cómo Preparar un Tema que Transforme Matrimonios", img: "bono-como-preparar.png", h: 576, price: "DE $29,90" },
-  { title: "Tarjetas con Versículos para Fortalecer el Amor y la Fe", img: "bono-tarjetas.png", h: 576, price: "DE $29,90" },
+  { title: "300 Dinámicas para encuentros y reuniones de matrimonios", img: "bono-300-dinamicas.png", w: 1306, h: 1204, price: "DE $37,90" },
+  { title: "85 Ideas de Rompehielos para encuentros y retiros matrimoniales", img: "bono-85-rompehielos.png", w: 1306, h: 1204, price: "DE $29,90" },
+  { title: "52 Encuentros Matrimoniales Listos para Dirigir", img: "bono-52-encuentros.png", w: 1500, h: 1383, price: "DE $19,90" },
+  { title: "Cartas Personalizables para Mi Pareja", img: "bono-cartas.png", w: 1024, h: 576, price: "DE $37,90" },
+  { title: "20 Títulos Temáticos para Grupos de Matrimonios Cristianos", img: "bono-20-titulos.png", w: 1024, h: 576, price: "DE $37,90" },
+  { title: "Cómo Preparar un Tema que Transforme Parejas", img: "bono-como-preparar-parejas.png", w: 1306, h: 1204, price: "DE $29,90" },
+  { title: "Tarjetas con Versículos para Fortalecer el Amor y la Fe", img: "bono-tarjetas.png", w: 1024, h: 576, price: "DE $29,90" },
+  { title: "150 Recursos Imprimibles para Encuentros Matrimoniales", img: "bono-150-recursos.png", w: 1242, h: 954, price: "DE $37,90" },
 ];
 
 const TESTIMONIALS = [
@@ -111,16 +113,17 @@ const FOR_WHOM = [
 
 const OFFER_ITEMS = [
   "Todos los materiales imprimibles y editables.",
-  "100 Dinámicas para encuentros y reuniones de matrimonios",
+  "300 Dinámicas para encuentros y reuniones de matrimonios",
   "Actividad Guiada: Aprendiendo a vivir el Matrimonio",
-  "44 Desafíos Creativos para parejas",
+  "128 Desafíos en Pareja",
   "24 Carteles para encuentros y retiros de matrimonios",
-  "42 Ideas de Rompehielos para encuentros y retiros matrimoniales",
-  "50 Preguntas para Conectar con tu Pareja",
+  "85 Ideas de Rompehielos para encuentros y retiros matrimoniales",
+  "52 Encuentros Matrimoniales Listos para Dirigir",
+  "150 Recursos Imprimibles para Encuentros Matrimoniales",
   "27 Dinámicas y Rompehielos para Retiros de Matrimonio",
-  "25 Ideas para Encuentros Románticos Cristianos",
-  "10 Estrategias para Líderes de Matrimonio",
-  "Cómo Preparar un Tema que Transforme Matrimonios",
+  "38 Ideas para Encuentros Románticos Cristianos",
+  "55 Estrategias para Líderes de Matrimonios",
+  "Cómo Preparar un Tema que Transforme Parejas",
   "Carta para Mi Pareja (modelos personalizables)",
   "20 Títulos Temáticos para Grupos de Matrimonios Cristianos",
   "Guía para Organizar Encuentros con Propósito",
@@ -360,18 +363,14 @@ export default function MesaPostaPage() {
               <MarkOnRed>amor y propósito.</MarkOnRed>
             </h1>
 
-            <div className="relative -mx-4 mt-8 sm:mx-0">
-              <div className="">
-                <Image
-                  src={`${IMG}/hero-mockup.png`}
-                  alt="Materiales del Kit Ministerial para Matrimonios Cristianos"
-                  width={1600}
-                  height={900}
-                  priority
-                  className="w-full drop-shadow-[0_24px_30px_rgba(110,0,25,0.45)]"
-                />
-              </div>
-            </div>
+            <Image
+              src={`${IMG}/kit-ministerial.png`}
+              alt="Kit Ministerial para Matrimonios Cristianos"
+              width={1024}
+              height={1536}
+              priority
+              className="mt-8 w-full rounded-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
+            />
 
             <p className="mt-8 text-lg font-medium leading-relaxed text-white/95 sm:text-xl">
               Descubre el <SoftMarkOnRed>Descubre el Kit Ministerial para Matrimonios Cristianos</SoftMarkOnRed> una
@@ -399,23 +398,17 @@ export default function MesaPostaPage() {
               ¿Qué incluye el <span className="text-love-500">Kit Ministerial para Matrimonios Cristianos</span>
             </h2>
 
-            <div className="clay-card mt-10 rounded-[32px] p-6 sm:p-8">
-              <CheckList items={INCLUDES_TOP} />
-            </div>
+            <CheckList items={INCLUDES_TOP} className="mt-10" />
 
-            <div className="relative mx-auto mt-12 w-full max-w-[440px]">
-              <Image
-                src={`${IMG}/kit-capa.png`}
-                alt="Kit Ministerial para Matrimonios"
-                width={1024}
-                height={1024}
-                className="w-full rounded-[32px] shadow-[0_18px_36px_rgba(120,40,60,0.22)]"
-              />
-            </div>
+            <Image
+              src={`${IMG}/kit-completo.png`}
+              alt="Materiales del Kit Ministerial para Matrimonios Cristianos"
+              width={1192}
+              height={865}
+              className="mt-10 w-full"
+            />
 
-            <div className="clay-card mt-12 rounded-[32px] p-6 sm:p-8">
-              <CheckList items={INCLUDES_BOTTOM} />
-            </div>
+            <CheckList items={INCLUDES_BOTTOM} className="mt-10" />
           </Container>
         </LightSection>
 
@@ -452,7 +445,7 @@ export default function MesaPostaPage() {
                 return (
                   <article key={d.title} className="clay-red-card flex flex-col gap-5 rounded-[32px] p-4 sm:p-8">
                     {d.titleFirst && title}
-                    <Image src={`${IMG}/${d.img}`} alt={d.title} width={1024} height={576} className="w-full" />
+                    <Image src={`${IMG}/${d.img}`} alt={d.title} width={d.w} height={d.h} className="w-full" />
                     {!d.titleFirst && title}
                   </article>
                 );
@@ -517,7 +510,7 @@ export default function MesaPostaPage() {
 
               {BONUSES.map((b) => (
                 <article key={b.title} className="clay-red-card flex flex-col gap-5 rounded-[32px] p-4 pb-8 text-center sm:p-8">
-                  <Image src={`${IMG}/${b.img}`} alt={b.title} width={1024} height={b.h} className="mx-auto w-full" />
+                  <Image src={`${IMG}/${b.img}`} alt={b.title} width={b.w} height={b.h} className="mx-auto w-full" />
                   <h3 className={`${display} px-2 text-2xl font-extrabold leading-tight text-white`}>{b.title}</h3>
                   <BonusPrice price={b.price} />
                 </article>
@@ -580,15 +573,13 @@ export default function MesaPostaPage() {
               ¿Por qué el <MarkOnRed>Kit Ministerial para Matrimonios Cristianos</MarkOnRed> transformará tu ministerio?
             </SectionTitle>
 
-            <div className="mx-auto mt-10 w-full max-w-[420px]">
-              <Image
-                src={`${IMG}/kit-capa.png`}
-                alt="Kit Ministerial para Matrimonios"
-                width={1024}
-                height={1024}
-                className="w-full rounded-[32px] shadow-[0_18px_36px_rgba(90,0,20,0.35)]"
-              />
-            </div>
+            <Image
+              src={`${IMG}/kit-completo.png`}
+              alt="Materiales del Kit Ministerial para Matrimonios Cristianos"
+              width={1192}
+              height={865}
+              className="mt-10 w-full"
+            />
 
             <div className="clay-red-card mt-12 rounded-[32px] p-6 sm:p-8">
               <CheckList items={WHY} onRed />
@@ -633,11 +624,11 @@ export default function MesaPostaPage() {
                   </h3>
 
                   <Image
-                    src={`${IMG}/kit-capa-300.png`}
-                    alt="Kit Ministerial para Matrimonios"
-                    width={300}
-                    height={300}
-                    className="mt-8 w-full max-w-[300px] rounded-[28px] shadow-[0_18px_36px_rgba(90,0,20,0.35)]"
+                    src={`${IMG}/kit-ministerial.png`}
+                    alt="Kit Ministerial para Matrimonios Cristianos"
+                    width={1024}
+                    height={1536}
+                    className="mt-8 w-full rounded-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.25)]"
                   />
 
                   <div className="mt-8 w-full text-left">
@@ -655,12 +646,12 @@ export default function MesaPostaPage() {
                     DE $ 127,00
                   </p>
                   <p className={`${display} mt-1 text-2xl font-black tracking-wide`}>HOY SOLO</p>
-                  <p className={`${display} mt-1 text-8xl font-black leading-none tracking-tight`}>$10</p>
+                  <p className={`${display} mt-1 text-7xl font-black leading-none tracking-tight sm:text-8xl`}>$14,90</p>
                   <p className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-love-600 shadow-[var(--shadow-clay-orb)]">
                     <TriangleAlert className="h-4 w-4 text-[#f59e0b]" strokeWidth={2.75} />
                     Puedes pagar en tu moneda local.
                   </p>
-                  <p className={`${display} mt-6 text-lg font-black`}>O 5X DE $7,29</p>
+                  <p className={`${display} mt-6 text-lg font-black`}>O 5X DE $3,98</p>
                   <p className="text-sm font-bold text-white/90">Pago único</p>
 
                   <CtaButton href={CHECKOUT_URL} className="mt-6 sm:min-w-[320px]">
