@@ -622,7 +622,7 @@ export default function MesaPostaPage() {
                     DE $ 127,00
                   </p>
                   <p className={`${display} mt-1 text-2xl font-black tracking-wide`}>HOY SOLO</p>
-                  <p className={`${display} mt-1 text-7xl font-black leading-none tracking-tight sm:text-8xl`}>$14,90</p>
+                  <p className={`${display} mt-1 text-8xl font-black leading-none tracking-tight`}>$10</p>
                   <p className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-love-600 shadow-[var(--shadow-clay-orb)]">
                     <TriangleAlert className="h-4 w-4 text-[#f59e0b]" strokeWidth={2.75} />
                     Puedes pagar en tu moneda local.
